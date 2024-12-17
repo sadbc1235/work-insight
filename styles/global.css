@@ -155,3 +155,10 @@ a:hover {
 
 table, th, td { border: 1px solid #000; }
 table { border-collapse: collapse; }
+::-webkit-scrollbar {
+  width: 5px;  /* 세로축 스크롤바 폭 너비 */
+}
+::-webkit-scrollbar-thumb {
+  background: #cecece; /* 스크롤바 막대 색상 */
+  border-radius: 12px 12px 12px 12px;
+}

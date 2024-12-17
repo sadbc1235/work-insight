@@ -15,10 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko">
-      <Suspense>
+      <body>
         <Nav />
-      </Suspense>
-      <body>{children}</body>
+        {children}
+      </body>
     </html>
   )
 }
