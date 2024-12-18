@@ -1,0 +1,17 @@
+.ofHomePage {
+    width: 100%;
+    padding-top: 88px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-row-gap: 1.5rem;
+}
+.imageWrap {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1.5rem;
+}
+.image {
+    width: 100%;
+    object-fit: contain;
+}
